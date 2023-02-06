@@ -149,3 +149,6 @@ docker run -it \
       --zones_table_name=zones \
       --url_data=${URL} \
       --url_zones=${URL_ZONES}
+
+
+python -m http.server
